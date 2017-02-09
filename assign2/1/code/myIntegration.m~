@@ -1,0 +1,27 @@
+function [integral] = myIntegration(image,t,theta)
+%MYINTEGRATION Integrates on image along the line parametrized t, theta
+
+[dimx,dimy] = size(image);
+center = [t*cos(theta)+dimx/2+0.5,t*sin(theta)+dimy/2+0.5];
+deltas = 0.5;
+integral=0;
+
+point=center;
+while point(1)<=dimx && point(2)<=dimy && point(1)>0 && point(2)>0
+    integral = integral + interp2(image,point(1),point(2));
+    interp2(image,point(1),point(2))
+    point(1) = point(1)+deltas*sin(theta);
+    point(2) = point(2)+deltas*cos(theta);
+end
+
+point=center;
+point(1) = point(1)-deltas*sin(theta);
+point(2) = point(2)-deltas*cos(theta);
+while point(1)<=dimx && point(2)<=dimy && point(1)>0 && point(2)>0
+    integral = integral + interp2(image,point(1),point(2));
+    interp2(image,point(1),point(2))
+    point(1) = point(1)-deltas*sin(theta);
+    point(2) = point(2)-deltas*cos(theta);
+end
+end
+
