@@ -21,7 +21,7 @@ Chosen step size $\Delta s = 1$. If a step size larger than this is chosen then 
 Choosing step size smaller than this is computationally expensive and the results of integration will be very similar to that of $\Delta s = 1$.
 
 Bilateral interpolation is being used here. A Nearest Neighbour interpolation will not be a good estimate of integral compared to integral evaluated by bilinear interpolation.
-In cases like $\Delta s = 0.66$ with integration along an axis,NN interpolation will select alternate pixels with twice(not a good estimate), which will not be the case with bilinear interpolation.
+In cases like $\Delta s = 0.66$ with integration along an axis,NN interpolation will select one set of alternate pixels twice as many times as others(not a good estimate), which will not be the case with bilinear interpolation.
 \subsection{myRadon()}
 
 \begin{figure}[h]
@@ -51,7 +51,22 @@ In case of $\Delta s=3$ we are skipping over pixels while integrating, because o
 
 \subsection{$\Delta t$ and $\Delta \theta$}
 Smaller $\Delta t$ and $\Delta \theta$ the transform will be able to capture more fine details. However, Since transforms are applied on a discrete domain very small $\Delta t$ and $\Delta \theta$ will have minimal effect on accuracy of transform, also it will be computationally expensive.
+From figure 4 and 5 it is clear that reducing $\Delta t$ and $\Delta \theta$ to any value less than $1$ does not improves the results significantly.
+But the transform detoriates when $\Delta t$ and $\Delta \theta$ are increased
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{d}
+\caption{Radon transforms with $\Delta t = 1$ and $\Delta \theta = 0.1,1,10$}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{d2}
+\caption{Radon transforms with $\Delta \theta = 5$ and $\Delta t = 0.1,1,10$}
+\end{figure}
+
 
 \subsection{Algebraic Reconstruction Technique}
-
+The number of pixels in grid and $\Delta s$ should vary proportionately to each other.
+If $\Delta s >> 1$ pixel width then we are subsampling and the results are suboptimal.
+If $\Delta s << 1$ then we are doing more computation and not gaining significant differences.
 \end{document}

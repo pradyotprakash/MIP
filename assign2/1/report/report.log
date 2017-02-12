@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  12 FEB 2017 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  12 FEB 2017 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,15 +521,15 @@ File: ../images/b.png Graphic file (type png)
 Package pdftex.def Info: ../images/b.png used on input line 29.
 (pdftex.def)             Requested size: 428.39291pt x 181.47478pt.
 
-<../images/c.png, id=2, 414.54875pt x 1190.4475pt>
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/b.png>]
+<../images/c.png, id=12, 414.54875pt x 1190.4475pt>
 File: ../images/c.png Graphic file (type png)
  <use ../images/c.png>
 Package pdftex.def Info: ../images/c.png used on input line 43.
 (pdftex.def)             Requested size: 186.54521pt x 535.69643pt.
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/b.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -542,27 +542,53 @@ Package pdftex.def Info: ../images/c2.png used on input line 48.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3 <../images/c.png>] [4 <../images/c2.png>] (./report.aux) ) 
+<../images/d.png, id=14, 1649.16125pt x 437.635pt>
+File: ../images/d.png Graphic file (type png)
+ <use ../images/d.png>
+Package pdftex.def Info: ../images/d.png used on input line 58.
+(pdftex.def)             Requested size: 494.7522pt x 131.2915pt.
+
+Overfull \hbox (36.94733pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+<../images/d2.png, id=15, 1547.7825pt x 406.51875pt>
+File: ../images/d2.png Graphic file (type png)
+ <use ../images/d2.png>
+Package pdftex.def Info: ../images/d2.png used on input line 63.
+(pdftex.def)             Requested size: 464.33833pt x 121.95656pt.
+
+Overfull \hbox (6.53346pt too wide) in paragraph at lines 63--64
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3 <../images/c.png>] [4 <../images/c2.png>] [5 <../images/d.png> <../image
+s/d2.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 11364 strings out of 493029
- 240413 string characters out of 6136234
+ 11374 strings out of 493029
+ 240586 string characters out of 6136234
  250221 words of memory out of 5000000
- 14840 multiletter control sequences out of 15000+600000
+ 14848 multiletter control sequences out of 15000+600000
  9783 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,42p,10386b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb>
-Output written on report.pdf (4 pages, 175287 bytes).
+ 38i,7n,42p,10386b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on report.pdf (5 pages, 255395 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
