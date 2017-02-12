@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  12 FEB 2017 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  12 FEB 2017 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,21 +389,23 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
-mappings.tex))) (./report.aux)
+mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -506,63 +508,113 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count142
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 16.
+(Font)              <10.95> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 \c__siunitx_mathtt_int=\count143
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <12> on input line 18.
 
-<../images/b.png, id=1, 1071.00125pt x 453.695pt>
-File: ../images/b.png Graphic file (type png)
- <use ../images/b.png>
-Package pdftex.def Info: ../images/b.png used on input line 29.
-(pdftex.def)             Requested size: 428.39291pt x 181.47478pt.
+<../images/iradonWithoutFilter.png, id=1, 1059.96pt x 266.9975pt>
+File: ../images/iradonWithoutFilter.png Graphic file (type png)
 
-<../images/c.png, id=2, 414.54875pt x 1190.4475pt>
-File: ../images/c.png Graphic file (type png)
- <use ../images/c.png>
-Package pdftex.def Info: ../images/c.png used on input line 43.
-(pdftex.def)             Requested size: 186.54521pt x 535.69643pt.
+<use ../images/iradonWithoutFilter.png>
+Package pdftex.def Info: ../images/iradonWithoutFilter.png used on input line 2
+3.
+(pdftex.def)             Requested size: 423.97649pt x 106.79709pt.
+
+<../images/iradon.png, id=2, 938.50626pt x 1205.50375pt>
+File: ../images/iradon.png Graphic file (type png)
+
+<use ../images/iradon.png>
+Package pdftex.def Info: ../images/iradon.png used on input line 34.
+(pdftex.def)             Requested size: 469.25198pt x 602.75041pt.
+
+Overfull \hbox (11.44711pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../images/S015.png, id=3, 1146.2825pt x 284.06125pt>
+File: ../images/S015.png Graphic file (type png)
+ <use ../images/S015.png>
+Package pdftex.def Info: ../images/S015.png used on input line 60.
+(pdftex.def)             Requested size: 458.50488pt x 113.62247pt.
+
+Overfull \hbox (0.70001pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../images/R015.png, id=4, 1463.4675pt x 366.36874pt>
+File: ../images/R015.png Graphic file (type png)
+ <use ../images/R015.png>
+Package pdftex.def Info: ../images/R015.png used on input line 66.
+(pdftex.def)             Requested size: 439.04364pt x 109.91147pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/b.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/iradonWithoutFil
+ter.png>] [2 <../images/iradon.png>] [3 <../images/S015.png> <../images/R015.pn
+g>] <../images/RRMSE0.png, id=22, 687.56876pt x 588.1975pt>
+File: ../images/RRMSE0.png Graphic file (type png)
+
+<use ../images/RRMSE0.png>
+Package pdftex.def Info: ../images/RRMSE0.png used on input line 79.
+(pdftex.def)             Requested size: 309.40308pt x 264.68643pt.
+
+<../images/RRMSE1.png, id=23, 694.595pt x 582.175pt>
+File: ../images/RRMSE1.png Graphic file (type png)
+
+<use ../images/RRMSE1.png>
+Package pdftex.def Info: ../images/RRMSE1.png used on input line 84.
+(pdftex.def)             Requested size: 277.83307pt x 232.86588pt.
+
+<../images/RRMSE5.png, id=24, 695.59875pt x 578.16pt>
+File: ../images/RRMSE5.png Graphic file (type png)
+
+<use ../images/RRMSE5.png>
+Package pdftex.def Info: ../images/RRMSE5.png used on input line 89.
+(pdftex.def)             Requested size: 278.23457pt x 231.2599pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../images/c2.png, id=13, 1094.0875pt x 1205.50375pt>
-File: ../images/c2.png Graphic file (type png)
- <use ../images/c2.png>
-Package pdftex.def Info: ../images/c2.png used on input line 48.
-(pdftex.def)             Requested size: 437.62724pt x 482.19296pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3 <../images/c.png>] [4 <../images/c2.png>] (./report.aux) ) 
+[4
+
+ <../images/RRMSE0.png>] [5 <../images/RRMSE1.png> <../images/RRMSE5.png>]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 11364 strings out of 493029
- 240413 string characters out of 6136234
- 250221 words of memory out of 5000000
- 14840 multiletter control sequences out of 15000+600000
+ 11401 strings out of 493029
+ 241294 string characters out of 6136234
+ 251360 words of memory out of 5000000
+ 14869 multiletter control sequences out of 15000+600000
  9783 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,42p,10386b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb>
-Output written on report.pdf (4 pages, 175287 bytes).
+ 38i,9n,42p,10387b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on report.pdf (5 pages, 626012 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

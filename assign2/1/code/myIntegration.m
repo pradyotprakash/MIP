@@ -15,7 +15,7 @@ end
 
 point=center;
 point(1) = point(1)-deltas*sin(theta);
-point(2) = point(2)-deltas*cos(theta);
+point(2) = point(2)+deltas*cos(theta);
 while point(1)<=dimx && point(2)<=dimy && point(1)>=1 && point(2)>=1
     integral = integral + interp2(image,point(1),point(2))*deltas;
     point(1) = point(1)-deltas*sin(theta);
