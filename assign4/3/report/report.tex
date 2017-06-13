@@ -1,0 +1,65 @@
+\title{Assignment 4.3}
+\author{
+        Pradyot Prakash - 130050008
+            \\
+        Utkarsh Mall - 130050037
+			\\
+		Samarth Mishra - 130260018
+}
+\date{\today}
+\documentclass[11pt]{article}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,bindingoffset=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage[section]{placeins}
+\graphicspath{ {../images/} }
+\renewcommand\thesubsection{(\alph{subsection})}
+\begin{document}
+\maketitle
+
+\subsection{}
+Using Modified Levenberg Marquardt Algorithm with $\lambda = 0.1$.
+
+\textbf{Optimal D}
+\[\begin{bmatrix}
+6.3149 + 0.0000i & -3.8021 + 0.1439i\\
+-3.8021 - 0.1439i & 13.4367 + 0.0000i\\
+\end{bmatrix}\]
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{obj}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{absd}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{reald}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{imagd}
+\end{figure}
+
+\FloatBarrier
+\subsection{}
+\hfill \break
+\textbf{Principal Direction}
+Principal direction found out using eigen decomposition is:
+\[\begin{bmatrix}
+0.3979 - 0.0000i & -0.9168 + 0.0347i\\
+\end{bmatrix}\]
+
+\subsection{}
+\hfill \break
+\textbf{Diffusion Ratio}
+Diffusion in the principal direction as compared to the diffusion in the direction orthogonal to it is:
+$$3.2343$$
+
+Found using ratios of diagonal elements
+\end{document}

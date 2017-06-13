@@ -1,26 +1,24 @@
 %% Assignment 1 - Shape Analysis
 %% 
-% *Question 3*
+% *Question 1*
 fprintf('Following is the order of images below: \n');
 
 tic;
 
-load ../data/bone3D.mat
-bone = shapesTotal;
+load flavia
+hands = shapes;
 
 fprintf('a) Plot of all pointsets \n');
-showPointsets3d(bone);
-[z, P] = findMeanShape(bone);
+showPointsets(hands);
+[z, P] = findMeanShape(hands);
 
 fprintf('b) Plot of computed shape mean along with aligned pointsets \n');
-showPointsets3d(P);
-patch('Vertices', z', 'Faces', TriangleIndex, 'FaceColor', 'green', 'Edgecolor', 'red');
-view(3);
-axis vis3d;
+showPointsets(P);
+plot(z(1, :), z(2, :));
 
-fprintf('d) Top 3 principal modes of variations (highest eigenvalue to lowest) \n');
+fprintf('d) Top 3 principal modes of variations (highest eigenvalue to lowest from left to right) \n');
 fprintf('From left to right : mean + 2 * std dev ; mean ; mean - 2 * std dev \n');
-[V, D] = findShapeVariations3d(z, P, TriangleIndex);
+[V, D] = findShapeVariations(z, P);
 
 fprintf('c) Plot of variances along principal modes of variation \n');
 figure;

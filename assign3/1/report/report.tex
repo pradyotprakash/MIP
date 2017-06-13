@@ -1,0 +1,92 @@
+\title{Assignment 3.1}
+\author{
+        Pradyot Prakash - 130050008
+            \\
+        Utkarsh Mall - 130050037
+			\\
+		Samarth Mishra - 130260018
+}
+\date{\today}
+\documentclass[11pt]{article}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,bindingoffset=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage[section]{placeins}
+\graphicspath{ {../images/} }
+\renewcommand\thesubsection{(\alph{subsection})}
+\begin{document}
+\maketitle
+
+\subsection{}
+RRMSE Between Noisy and Noiseless Image 
+$$RRMSE = 0.3364$$
+
+\subsection{}
+\hfill \break
+\textbf{Quadratic Prior}
+\begin{itemize}
+	\item Optimal $\alpha$ is $0.8$
+	\item RRMSE ar $\alpha$ is $0.2168$
+	\item RRMSE at $0.8\alpha$ is $0.2272$
+	\item RRMSE at $1.2\alpha$ is $0.2668$
+	\item $\gamma$ does not affects the quadratic prior
+\end{itemize}
+
+\hfill \break
+\textbf{Huber Prior}
+\begin{itemize}
+	\item Optimal $\alpha$ is $0.503$ and $\gamma$ is $0.0424$ 
+	\item RRMSE ar $\alpha$ and $\gamma$ is $0.1568$
+	\item RRMSE at $0.8\alpha$ and $\gamma$ is $0.1623$
+	\item RRMSE at $1.2\alpha$ and $\gamma$ is $0.1629$
+	\item RRMSE at $\alpha$ and $0.8\gamma$ is $0.1583$
+	\item RRMSE at $\alpha$ and $1.2\gamma$ is $0.1578$
+\end{itemize}
+
+\hfill \break
+\textbf{Discontinuity-adaptive Prior}
+\begin{itemize}
+	\item Optimal $\alpha$ is $0.005$ and $\gamma$ is $0.0011$ 
+	\item RRMSE ar $\alpha$ and $\gamma$ is $0.06926$
+	\item RRMSE at $0.8\alpha$ and $\gamma$ is $0.06930$
+	\item RRMSE at $1.2\alpha$ and $\gamma$ is $0.06961$
+	\item RRMSE at $\alpha$ and $0.8\gamma$ is $0.06961$
+	\item RRMSE at $\alpha$ and $1.2\gamma$ is $0.06954$
+\end{itemize}
+
+\subsection{}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Noisy}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Noiseless}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{DenoisedQuad}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{DenoisedHuber}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.5]{DenoisedDA}
+\centering
+\end{figure}
+\FloatBarrier
+
+\subsection{}
+\begin{figure}[h]
+\hspace*{-1.5in}
+\includegraphics[scale=0.48]{graphs}
+\centering
+\end{figure}
+\FloatBarrier
+
+\end{document}

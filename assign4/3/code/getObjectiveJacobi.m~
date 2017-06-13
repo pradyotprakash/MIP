@@ -1,0 +1,11 @@
+function [ Jacobi ] = getObjectiveJacobi(g,Sg,S0,b0,L)
+%GETOBJECTIVEJACOBI return jacobi of function
+size(g)
+Jacobi = zeros(size(g),3);
+for i=1:size(g)
+    Jacobi(i,1) = b0*S0*exp(-b0*)*2*g(i,1)*(L(1,1)*g(i,1) + L(2,1)*g(i,2));
+    Jacobi(i,3) = b0*S0*exp(-b0*)*2*g(i,2)*(L(1,1)*g(i,1) + L(2,1)*g(i,2));
+    Jacobi(i,4) = b0*S0*exp(-b0*)*2*g(i,2)*g(i,2)*L(2,2);
+end
+Jacobi
+end

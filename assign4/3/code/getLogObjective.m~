@@ -1,0 +1,7 @@
+function [objectiveVal] = getLogObjective(g,Sg,S0,b0,L_init)
+%getLogObjective: returns the log of objective function
+D = L_init*(L_init');
+SL = D
+objectiveVal = 0;
+end
+
